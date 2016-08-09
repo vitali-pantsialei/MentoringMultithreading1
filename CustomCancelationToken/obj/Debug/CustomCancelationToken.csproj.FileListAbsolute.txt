@@ -1,0 +1,6 @@
+D:\Vitali_Pantsialei\Mentoring\MentoringMultithreading1\CustomCancelationToken\bin\Debug\CustomCancelationToken.exe.config
+D:\Vitali_Pantsialei\Mentoring\MentoringMultithreading1\CustomCancelationToken\bin\Debug\CustomCancelationToken.exe
+D:\Vitali_Pantsialei\Mentoring\MentoringMultithreading1\CustomCancelationToken\bin\Debug\CustomCancelationToken.pdb
+D:\Vitali_Pantsialei\Mentoring\MentoringMultithreading1\CustomCancelationToken\obj\Debug\CustomCancelationToken.csprojResolveAssemblyReference.cache
+D:\Vitali_Pantsialei\Mentoring\MentoringMultithreading1\CustomCancelationToken\obj\Debug\CustomCancelationToken.exe
+D:\Vitali_Pantsialei\Mentoring\MentoringMultithreading1\CustomCancelationToken\obj\Debug\CustomCancelationToken.pdb

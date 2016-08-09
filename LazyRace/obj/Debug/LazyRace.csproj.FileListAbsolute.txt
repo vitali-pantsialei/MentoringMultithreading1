@@ -1,0 +1,6 @@
+D:\Vitali_Pantsialei\Mentoring\MentoringMultithreading1\LazyRace\bin\Debug\LazyRace.exe.config
+D:\Vitali_Pantsialei\Mentoring\MentoringMultithreading1\LazyRace\bin\Debug\LazyRace.exe
+D:\Vitali_Pantsialei\Mentoring\MentoringMultithreading1\LazyRace\bin\Debug\LazyRace.pdb
+D:\Vitali_Pantsialei\Mentoring\MentoringMultithreading1\LazyRace\obj\Debug\LazyRace.exe
+D:\Vitali_Pantsialei\Mentoring\MentoringMultithreading1\LazyRace\obj\Debug\LazyRace.pdb
+D:\Vitali_Pantsialei\Mentoring\MentoringMultithreading1\LazyRace\obj\Debug\LazyRace.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+D:\Vitali_Pantsialei\Mentoring\MentoringMultithreading1\ThreadsExperiments\bin\Debug\ThreadsExperiments.exe.config
+D:\Vitali_Pantsialei\Mentoring\MentoringMultithreading1\ThreadsExperiments\bin\Debug\ThreadsExperiments.exe
+D:\Vitali_Pantsialei\Mentoring\MentoringMultithreading1\ThreadsExperiments\bin\Debug\ThreadsExperiments.pdb
+D:\Vitali_Pantsialei\Mentoring\MentoringMultithreading1\ThreadsExperiments\obj\Debug\ThreadsExperiments.csprojResolveAssemblyReference.cache
+D:\Vitali_Pantsialei\Mentoring\MentoringMultithreading1\ThreadsExperiments\obj\Debug\ThreadsExperiments.exe
+D:\Vitali_Pantsialei\Mentoring\MentoringMultithreading1\ThreadsExperiments\obj\Debug\ThreadsExperiments.pdb
