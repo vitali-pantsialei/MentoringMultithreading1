@@ -35,11 +35,15 @@ class Program
             t.Start(startingGate);
         }
 
+        PerformanceCounter ramCounter = new PerformanceCounter("Process", "Working Set", Process.GetCurrentProcess().ProcessName);
+        PerformanceCounter cpuCounter = new PerformanceCounter("Process", "% Processor Time", Process.GetCurrentProcess().ProcessName);
+        double ram = ramCounter.NextValue();
+        double cpu = cpuCounter.NextValue();
+        Console.WriteLine("(During the running threads) RAM: " + (ram / 1024 / 1024) + " MB; CPU: " + (cpu) + " %");
+
         // Give all 3 threads time to start and wait, then release them all at once.
         Thread.Sleep(50);
 
-        PerformanceCounter ramCounter = new PerformanceCounter("Process", "Working Set", Process.GetCurrentProcess().ProcessName);
-        PerformanceCounter cpuCounter = new PerformanceCounter("Process", "% Processor Time", Process.GetCurrentProcess().ProcessName);
         Stopwatch sw = new Stopwatch();
         sw.Start();
         startingGate.Set();
@@ -51,9 +55,9 @@ class Program
         }
 
         sw.Stop();
-        double ram = ramCounter.NextValue();
-        double cpu = cpuCounter.NextValue();
-        Console.WriteLine("RAM: " + (ram / 1024 / 1024) + " MB; CPU: " + (cpu) + " %");
+        ram = ramCounter.NextValue();
+        cpu = cpuCounter.NextValue();
+        Console.WriteLine("(After threads were closed) RAM: " + (ram / 1024 / 1024) + " MB; CPU: " + (cpu) + " %");
         TimeSpan ts = sw.Elapsed;
 
         // Format and display the TimeSpan value.
